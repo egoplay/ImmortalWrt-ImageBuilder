@@ -67,7 +67,8 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-commands-zh-cn"
 
 #===========================以下imm仓库内的软件==============================↓
 # L2TP 网络——接口——添加新接口 协议选L2TP
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-ppp xl2tpd ppp ppp-mod-pppol2tp kmod-l2tp kmod-l2tp-ip kmod-pppol2tp"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-ppp xl2tpd ppp ppp-mod-pppol2tp kmod-l2tp kmod-l2tp-ip kmod-pppol2tp"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-ppp luci-proto-l2tp xl2tpd ppp ppp-mod-pppol2tp kmod-l2tp kmod-l2tp-ip kmod-pppol2tp kmod-ipsec kmod-ipsec4 kmod-ipsec6 kmod-crypto-authenc kmod-crypto-cbc kmod-crypto-des kmod-crypto-md5 kmod-crypto-sha256 kmod-nft-compat strongswan strongswan-charon strongswan-ipsec strongswan-mod-stroke strongswan-mod-updown strongswan-mod-kernel-netlink strongswan-mod-socket-default strongswan-mod-aes strongswan-mod-des strongswan-mod-sha1 strongswan-mod-sha2 strongswan-mod-md5 strongswan-mod-hmac strongswan-mod-gmp strongswan-mod-random luci-app-strongswan-swanctl luci-i18n-strongswan-swanctl-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3cat-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3ginfo-lite-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-acl-zh-cn"
